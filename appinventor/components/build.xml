@@ -186,6 +186,8 @@
     <!-- Add extension libraries here -->
     <!-- Example: <copy toFile="${public.deps.dir}/my-dependency.jar" file="${lib.dir}/my-dependency/my-dependency-1.0.0.jar" /> -->
     <!-- Remember to include my-dependency.jar in the @UsesLibraries annotation in the extension -->
+    <copy toFile="${public.deps.dir}/org.eclipse.paho.client.mqttv3-1.0.2.jar" file="${lib.dir}/mqtt/org.eclipse.paho.client.mqttv3-1.0.2.jar" />
+    <copy toFile="${public.deps.dir}/org.eclipse.paho.android.service-1.0.2.jar" file="${lib.dir}/mqtt/org.eclipse.paho.android.service-1.0.2.jar" />
   </target>
 
   <path id="AndroidRuntime.path">
